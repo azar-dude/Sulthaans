@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 60px;
+}
+
+.icon i{
+    cursor: pointer;
+}
+
+.icon :hover {
+    color: rgb(255, 193, 7);
+}
+.homepage .carousel-item h1{
+    color: rgb(255, 193, 7);
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px 0;
+}
+
