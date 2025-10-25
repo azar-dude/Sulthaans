@@ -977,48 +977,6 @@
     </div>
 </body>
 <script>
-    // const form = document.querySelector('#book-table form');
-
-    // form.addEventListener('submit',async function (event) {
-    //     event.preventDefault();
-
-    //     if (!form.checkValidity()) {
-    //         form.classList.add('was-validated');
-    //         return;
-    //     }
-
-    //     const formData = {
-    //         firstName: document.getElementById('firstName').value,
-    //         lastName: document.getElementById('lastName').value,
-    //         email: document.getElementById('email').value,
-    //         phone: document.getElementById('phone').value,
-    //         guests: document.getElementById('guests').value,
-    //         date: document.getElementById('date').value,
-    //         time: document.getElementById('time').value,
-    //         requests: document.getElementById('requests').value,
-    //         termsAccepted: document.getElementById('terms').checked
-    //     };
-
-    //     console.log(formData);
-    //     form.reset();
-    //     form.classList.remove('was-validated');
-
-    //     const res = await fetch('http://localhost:4000/sulthaans', {
-    //         method: 'POST',
-    //         headers: { 'Content-Type': 'application/json' },
-    //         body: JSON.stringify({ firstName, lastName, email, phone, guests, date, time, requests })
-    //     });
-
-    //     const data = await res.json();
-    //     if (data.message) {
-    //         //success
-    //         console.log("your details sent to Sulthaans Database")
-    //     } else {
-    //         alert(data.error);
-    //     }
-
-    // });
-
     const form = document.querySelector('#book-table form');
 
 form.addEventListener('submit', async function (event) {
